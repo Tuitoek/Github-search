@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
+## Description
+This an angular app designed for a user to find other users and repositories .
+
+## List of contributors
+
+Sarah Tuitoek
+
+## Technologies used
+
+HTML,CSS,Typescript
+
+##Known Bugs
+
+If you come across any contact me 'sjtoek@gmail.com'
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
