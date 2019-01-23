@@ -1,0 +1,51 @@
+<nav class="nav-bar">
+  <h1 align="center">GithubSearch</h1>
+  <ul>
+    <li><a href='#'>Home</a></li>
+    <li> <a routerLink='users' routerLinkActive>Find Users</a> </li>
+    <li> <a routerLink='users' routerLinkActive>Find Repo</a> </li>
+  </ul>
+
+
+</nav>
+<div class="container">
+
+
+  <p>Find Users or Repositories!!</p>
+  
+  <form class="" action="index.html" method="post" (keyup)='searchUser()'>
+    <input placeholder="Search" type="text" name="username" [(ngModel)]="username">
+  </form>
+  <p>{{user.picture}}</p>
+  <div class="row">
+
+
+
+    <div class="jumbotron">
+      <img src="{{user.picture}}">
+      <div class="usersss">
+        <p>Name: {{user.name}}</p>
+        <p>Followers: {{user.followers}}</p>
+        <p>Following: {{user.following}}</p>
+        <p>Bio :{{user.bio}}</p>
+        <p>Repos:{{user.repos}}</p>
+      </div>
+
+    </div>
+    <!-- end jumbotron -->
+  </div>
+  <!-- end row -->
+  <div class="row">
+
+
+
+    <div class="jumbotron">
+    <h4>Repositories by {{user.name}}</h4>
+      <p>Name: {{repo.name}}</p>
+      <p>Description: {{repo.description}}</p>
+      <p>Star: {{repo.star}}</p>
+
+    </div>
+
+  </div>
+</div>

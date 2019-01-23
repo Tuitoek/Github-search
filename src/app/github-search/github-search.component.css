@@ -1,0 +1,31 @@
+p{
+  color:white;
+}
+.usersss p {
+  color:black;
+}
+.jumbotron img{
+  border-radius: 20px;
+}
+.jumbotron p {
+  color:black;
+}
+.nav-bar{
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+.btn-basic{
+  color:white;
+  padding: 30px;
+}
+h2{
+  color:white;
+}
+p{
+  color:white;
+}
+ul li{
+  display:inline-block;
+  margin:20px;
+}
