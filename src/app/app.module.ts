@@ -11,6 +11,7 @@ import { GithubSearchComponent } from './github-search/github-search.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component';
 import {FindService} from './finds/find.service';
 import { DatePipe } from './date.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DatePipe } from './date.pipe';
     LandingPageComponent,
     GithubSearchComponent,
     RepoSearchComponent,
-    DatePipe
+    DatePipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
