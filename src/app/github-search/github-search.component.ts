@@ -27,6 +27,7 @@ export class GithubSearchComponent implements OnInit {
   findUser(){
   this.user = this.findService.user;
    }
+
    findRepo(){
      this.repo = this.findService.repo;
    }
