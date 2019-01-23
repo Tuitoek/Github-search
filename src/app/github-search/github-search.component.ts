@@ -14,12 +14,15 @@ export class GithubSearchComponent implements OnInit {
   user:Users;
   repo:Repo;
   userRepo:any;
-  username:"Tuitoek";
+  username:string;
 
   constructor( private findService: FindService,private http:HttpClient) { }
+
   searchUser(){
     this.findService.updateSearch(this.username);
-
+    console.log(this.username);
+    this.findService.findUser(this.username);
+    this.user = this.findService.user;
   }
   findUser(){
   this.user = this.findService.user;

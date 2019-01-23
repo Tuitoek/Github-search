@@ -12,8 +12,8 @@
 
 
   <p>Find Users or Repositories!!</p>
-  
-  <form class="" action="index.html" method="post" (keyup)='searchUser()'>
+
+  <form class="" action="index.html" method="post" (keyup.enter)='searchUser()'>
     <input placeholder="Search" type="text" name="username" [(ngModel)]="username">
   </form>
   <p>{{user.picture}}</p>
@@ -29,6 +29,7 @@
         <p>Following: {{user.following}}</p>
         <p>Bio :{{user.bio}}</p>
         <p>Repos:{{user.repos}}</p>
+        <p>View repos in site   <a href="#">{{user.view}}</a></p>
       </div>
 
     </div>
