@@ -4,6 +4,9 @@ p{
 .usersss p {
   color:black;
 }
+.jumbotron{
+  background-color: black;
+}
 .jumbotron img{
   border-radius: 20px;
 }
