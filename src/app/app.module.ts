@@ -10,13 +10,15 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { GithubSearchComponent } from './github-search/github-search.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component';
 import {FindService} from './finds/find.service';
+import { DatePipe } from './date.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     GithubSearchComponent,
-    RepoSearchComponent
+    RepoSearchComponent,
+    DatePipe
   ],
   imports: [
     BrowserModule,
